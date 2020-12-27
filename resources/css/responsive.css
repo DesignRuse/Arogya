@@ -1,0 +1,113 @@
+/* Medium Devices (Portrait Tablets & Small Desktops) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sectionContentBox {
+        padding: 0 7px;
+    }    
+    .downloadContentBox {
+        padding: 0 18px;
+    }
+    #header #heroText {
+        padding-top: 0;
+    }
+    #header #heroText h1 {
+    	font-size: 45px;
+    }
+    #header #heroImage {
+        float: none;
+        margin: 0 auto;
+    }
+    #contactSection #contactForm {
+        padding-left: 30px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media(min-width:320px) and (max-width:479px) {
+    .resMarginTop40Px {
+        margin-top: 40px;
+    }
+    .sectionContentBox {
+        padding: 0 7px;
+    }    
+    .downloadContentBox {
+        padding: 0 18px;
+    }
+    .sectionHeading {
+        padding: 0;
+    }
+    .sectionBody {
+        padding: 0;
+        margin: 0;
+    }
+    #header #heroWrapper {
+        padding: 0;
+        margin-top: 40px;
+    }
+    #header #heroText::after {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #header #heroText h1 {
+        text-align: center;
+    	font-size: 38px;
+    }
+    #header #heroImage {
+        float: none;
+        margin: 60px auto 0 auto;
+    }
+    /*-----------------------------------------------------*/
+    /*------------------- SECTION -------------------------*/
+    /*-----------------------------------------------------*/
+
+    .sectionHeading {
+        padding: 75px 0 55px 0;
+    }
+
+    .sectionHeading h2 {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .sectionBody {
+        padding: 45px 0 75px 0;
+    }
+
+    .sectionBody p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /*-----------------------------------------------------*/
+    /*------------------- SECTION -------------------------*/
+    /*-----------------------------------------------------*/
+    #contactSection #contactForm {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+    #pageWrapper #servicesSection {
+        
+    }
+    #servicesSection .servicePoint {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    #servicesSection .serviceDescription {
+        margin-bottom: 25px;
+    }
+    #downloadSection #modalWrapper {
+        padding: 0 20px;
+    }
+    #footer h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
